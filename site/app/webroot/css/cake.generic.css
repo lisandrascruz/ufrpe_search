@@ -1,0 +1,169 @@
+@charset "utf-8";
+/**
+ *
+ * Generic CSS for CakePHP
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       app.webroot.css
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
+*{margin: 0; padding: 0; background:#E6E6FA ;}
+
+.menu{
+list-style:none; 
+/*border:1px solid #c0c0c0; */
+float:left; 
+/*width: 610px;*/
+height:50px;
+background:#0000EE;
+}
+
+.menu li{
+position:relative; 
+float:left; 
+border-right:1px solid #c0c0c0; 
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;background:#0000EE;
+}
+ 
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+}   
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}
+
+.menu li ul li ul{
+border:1px solid #c0c0c0; 
+display:none; 
+width:150px;
+}
+
+.menu2{
+list-style:none; 
+border:2px solid #c0c0c0; 
+float:left;
+width: 200px;
+}
+
+.menu2 li{
+float:left; 
+/*border-right:1px solid #c0c0c0; */
+margin: 0;
+padding: 0;
+list-style: none;
+width: auto;
+color: #E2144A;
+background: #E6E6FA;
+padding: 5px;
+/*border: 1px solid #ccc;*/ 
+position: relative; /*alterado inserido 1*/
+clear:left;/*alterado inserido 1*/
+}
+.menu2 li a{color:#E2144A; text-decoration:none; padding:5px 10px;width: none;}/*alterado inserido 1*/
+.menu2 li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc; }
+
+.menu2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    
+    
+    }
+.menu2 ul li {
+    position: relative; 
+    float:left;/*alterado inserido 1*/
+     clear:left;/*alterado inserido 1*/
+    }
+    
+.menu2 li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+    
+    }
+    
+.menu2 ul li a {
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc; 
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+.menu2 li:hover ul { display: block; }
+
+/* Trecho que faz mudar quando clica*/ 
+.menu2 ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc; }
+/*.menu2 li:hover ul, .menu2 li.over ul{display:block;}*/
+
+#img {
+	float: left;
+	width: 200px;
+	height:50px;
+	
+}
+
+#menu_topo{
+	float: left;
+	width: 1024px;
+	height:50px;
+	background:#0000EE;
+}
+#menu_lateral{
+	
+	float:left;
+	height:810px;
+	width: 200px;
+	background:#0000EE;
+}
+
+#conteudo{
+	float: left;
+	height:1024px;
+	width: 1280px; 
+	background:#ffffff ;
+}
+#conteudo p{
+	background:#ffffff ;
+}
