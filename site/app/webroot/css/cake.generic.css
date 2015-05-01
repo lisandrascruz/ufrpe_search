@@ -139,8 +139,9 @@ clear:left;/*alterado inserido 1*/
 
 #img {
 	float: left;
-	width: 200px;
-	height:50px;
+	width: 300px;
+	height:100px;
+	background:#E6E6FA ;
 	
 }
 
@@ -161,9 +162,49 @@ clear:left;/*alterado inserido 1*/
 #conteudo{
 	float: left;
 	height:1024px;
-	width: 1280px; 
+	width: 1080px; 
 	background:#ffffff ;
 }
 #conteudo p{
 	background:#ffffff ;
+}
+
+.container {
+    width:100%;
+    border:1px solid #0080c0;
+    background: #0080c0;
+}
+.container div {
+    width:100%;
+    background: #0080c0;
+}
+.container .header {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container .content {
+    display: none;
+    padding : 5px;
+    background: #0080c0;
+}
+
+#nav ul.sub-nav {
+    display: none;
+    background: #000000;
+}
+
+#nav ul.visible {
+    display: block;
+    background: #0080c0;
+}
+.header {
+	background: #0080c0;
+}
+
+.conteudo .container .header .content li table tbody tr td table tbody tr {
+	background: #0080c0;
+	font-color: #0080c0;
+	
 }

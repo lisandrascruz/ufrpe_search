@@ -22,27 +22,32 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		UFRPE SEARCH
-		<?php echo $this->fetch('title'); ?>
+		Blog Cake
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
+		echo $this->Html->script('jquery-1.11.2.js');
+		echo $this->Html->script('javascript.js',array('inline' => false));
+		
+		
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		
 	?>
 </head>
 <body>
+
 	<div id="img">
-	<b><h1><?php echo "IMG";?></h1></b>
+	<?php echo $this->Html->image("ufrpe_search.jpg", array('width' => 300, 'height'=>100));?>
 	</div>
 	<div id=menu_topo>
 		<nav>
 		  <ul class="menu">
-		        <li><a href="#">Home</a></li>
+		        <li><a href="">Home</a></li>
 		        <li><a href="#">Sobre</a></li>
 		            <li><a href="#">O que fazemos?</a>
 		                <ul>
@@ -51,11 +56,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                      <li><a href="#">Design</a></li>                    
 		                </ul>
 		            </li>
-		        <li><a href="#">Links</a></li>
+		        <li><a href="http://localhost/ufrpe_search/site/onibus">Onibus</a></li>
 		        <li><a href="#">Contato</a></li>  
 		</ul>
 		</nav>
-		Teste
+		
 	</div>
 	
 	
@@ -63,9 +68,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	  
 
 <div id="conteudo">
-	  <?php echo "conteudo"; ?>
+	  
 	  <?php echo $this->Session->flash(); ?>
-
+	<?php echo $this->Js->writeBuffer();?>	
 		<?php echo $this->fetch('content'); ?>
 </div>
+<?php echo $this->Js->writeBuffer();?>
+</body>
 </html>
