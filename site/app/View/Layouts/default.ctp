@@ -21,6 +21,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
+	
 	<title>
 		UFRPE SEARCH
 	</title>
@@ -47,7 +48,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div id=menu_topo>
 		<nav>
 		  <ul class="menu">
-		        <li><a href="">Home</a></li>
+		        <li><a href="http://localhost/ufrpe_search/site/">Home</a></li>
 		        <li><a href="#">Sobre</a></li>
 		            <li><a href="http://localhost/ufrpe_search/site/cursos">Cursos</a>
 		                <ul>
