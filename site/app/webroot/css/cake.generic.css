@@ -18,6 +18,11 @@
 
 *{margin: 0; padding: 0; background:#E6E6FA ;}
 
+
+body {
+	width: 1325px;
+	height:0px;
+}
 .menu{
 list-style:none; 
 /*border:1px solid #c0c0c0; */
