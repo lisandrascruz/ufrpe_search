@@ -22,7 +22,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		Blog Cake
+		UFRPE SEARCH
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -49,11 +49,32 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		  <ul class="menu">
 		        <li><a href="">Home</a></li>
 		        <li><a href="#">Sobre</a></li>
-		            <li><a href="#">O que fazemos?</a>
+		            <li><a href="http://localhost/ufrpe_search/site/cursos">Cursos</a>
 		                <ul>
-		                      <li><a href="#">Web Design</a></li>
-		                      <li><a href="#">SEO</a></li>
-		                      <li><a href="#">Design</a></li>                    
+		                      <li><a href="#">Administração</a></li>
+		                      <li><a href="#">Agronomia	</a></li>
+		                      <li><a href="#">C. da Computação</a></li> 
+		                      <li><a href="#">C. Biológicas</a></li>
+		                      <li><a href="#">C. Economicas</a></li>
+		                      <li><a href="#">Ciências Sociais</a></li>
+		                      <li><a href="#">Gastronomia</a></li>
+		                      <li><a href="#">Sist. de Informação</a></li>
+		                      <li><a href="#">Econ. Domestica</a></li>
+		                      <li><a href="#">Eng. Agric. Ambiental</a></li>
+		                      <li><a href="#">Eng Pesca</a></li>
+		                      <li><a href="#">Eng. Florestal</a></li>
+		                      <li><a href="#">Lic. em Ciencias Sociais</a></li>
+		                      <li><a href="#">Lic. em Computação</a></li>
+		                      <li><a href="#">Lic. em Educação Fisica</a></li>
+		                      <li><a href="#">Licenciatura em Fisica</a></li>                   
+		                      <li><a href="#">Licenciatura em História</a></li>
+		                      <li><a href="#">Licenciatura em Letras</a></li>
+		                      <li><a href="#">Lic. em Matemática</a></li>
+		                      <li><a href="#">Lic. em Pedagogia</a></li>
+		                      <li><a href="#">Lic. em Quimica</a></li>
+		                      <li><a href="#">Lic. em C. Biologicas</a></li>
+		                      <li><a href="#">Medicina Veterinária</a></li>
+		                      <li><a href="#">Zootecnia</a></li>
 		                </ul>
 		            </li>
 		        <li><a href="http://localhost/ufrpe_search/site/onibus">Onibus</a></li>
