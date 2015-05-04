@@ -1,6 +1,11 @@
-<p><h2>Ônibus que passam pela UFRPE</h2><p>
+ï»¿<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<p><h2>Ã”nibus que passam pela UFRPE</h2><p>
 <br>
-<p><h4> Para ver seu percurso, clique sobre o nome do ônibus </h4></p>
+<p><h4> Para ver seu percurso, clique sobre o nome do Ã´nibus </h4></p>
 <br>
 
 

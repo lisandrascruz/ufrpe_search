@@ -1,11 +1,10 @@
-
-<?php foreach ($cursos as $curso) { ?>
+Ôªø<?php foreach ($cursos as $curso) { ?>
 	<p><h1> <?php echo $curso['cursos']['NOME']; ?></h1></p>
 	<br>
 	<p> <?php echo $curso['cursos']['DESCRICAO']; ?> </p>
 	<br>
 	<?php if($curso['cursos']['SITE'] =="") { ?>
-		<p>Site: N„o encontrado/informado </p>
+		<p>Site: N√£o encontrado/informado </p>
 	<?php
 	} else { ?>
 		<p> Site: <?php echo $curso['cursos']['SITE']; ?></p>
@@ -15,7 +14,7 @@
 	?>	
 	<br>
 	<?php if($curso['cursos']['TURNO'] =="") { ?>
-		<p>Turno: N„o encontrado </p>
+		<p>Turno: N√£o encontrado </p>
 	<?php
 	} else { ?>
 		<p> Turno: <?php echo $curso['cursos']['TURNO']; ?></p>
@@ -25,7 +24,7 @@
 	?>
 	<br>
 	<?php if($curso['cursos']['EMAIL_CONTATO'] =="") { ?>
-		<p>Email: Email n„o informado </p>
+		<p>Email: Email n√£o informado </p>
 	<?php
 	} else { ?>
 		<p> EMAIL: <?php echo $curso['cursos']['EMAIL_CONTATO']; ?></p>
@@ -35,7 +34,7 @@
 	?>	
 	<br>
 	<?php if($curso['cursos']['TELEFONE'] =="") { ?>
-		<p>Telefone: N„o informado </p>
+		<p>Telefone: N√£o informado </p>
 	<?php
 	} else { ?>
 		<p> Telefone: <?php echo $curso['cursos']['TELEFONE']; ?></p>
@@ -45,10 +44,10 @@
 	?>		
 	<br>
 	<?php if($curso['cursos']['DURACAO'] =="") { ?>
-		<p>DuraÁ„o: N„o informado </p>
+		<p>Dura√ß√£o: N√£o informado </p>
 	<?php
 	} else { ?>
-		<p> DuraÁ„o: <?php echo $curso['cursos']['DURACAO']; ?></p>
+		<p> Dura√ß√£o: <?php echo $curso['cursos']['DURACAO']; ?></p>
 	
 	<?php
 	}
