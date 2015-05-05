@@ -78,7 +78,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/zootecnia">Zootecnia</a></li>
 		                </ul>
 		            </li>
-		        <li><a href="http://localhost/ufrpe_search/site/onibus">Onibus</a></li>
+		        <li><a href="http://localhost/ufrpe_search/site/onibus">Ônibus</a></li>
 		        <li><a href="#">Contato</a></li>  
 		</ul>
 		</nav>
