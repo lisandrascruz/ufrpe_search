@@ -1,0 +1,20 @@
+[
+	{
+		"Id": 1,
+        "Latitude": -8.014516,
+        "Longitude":  -34.950451,
+		"Descricao": "UFRPE SEDE - PREDIO CENTRAL"
+    },
+    {
+		"Id": 2,
+        "Latitude": -8.015987,
+        "Longitude":  -34.951227,
+		"Descricao": "Departamento de Matemática "
+    },
+    {
+		"Id": 3,
+        "Latitude": -8.016064,
+        "Longitude":  -34.950940,
+		"Descricao": "DEINFO"
+    }
+]
