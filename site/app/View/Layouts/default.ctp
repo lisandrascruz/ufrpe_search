@@ -17,21 +17,20 @@
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
+	<title>UFRPE Search</title>
 	
-	<title>
-		UFRPE SEARCH
-	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('style');
 		echo $this->Html->script('jquery-1.11.2.js');
-		echo $this->Html->script('javascript.js',array('inline' => false));
-		
+		echo $this->Html->script('javascript.js',array('inline' => false));	
 		
 
 		echo $this->fetch('meta');
@@ -40,18 +39,19 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		
 	?>
 </head>
-<body>
 
-	<div id="img">
-	<?php echo $this->Html->image("ufrpe_search.jpg", array('width' => 300, 'height'=>100));?>
-	</div>
-	<div id=menu_topo>
-		<nav>
-		  <ul class="menu">
-		        <li><a href="http://localhost/ufrpe_search/site/">Home</a></li>
-		        <li><a href="#">Sobre</a></li>
-		            <li><a href="http://localhost/ufrpe_search/site/cursos">Cursos</a>
-		                <ul>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="http://localhost/ufrpe_search/site/"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="http://localhost/ufrpe_search/site/">Home</a>
+				</li>
+				<li><a href="http://localhost/ufrpe_search/site/cursos">Cursos</a>
+		                <!--<ul>
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/administracao">Administração</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/agronomia">Agronomia	</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/ciencia_computacao">C. da Computação</a></li> 
@@ -76,26 +76,41 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/licenciatura_ciencias_biologicas">Lic. em C. Biologicas</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/medicina_veterinaria">Medicina Veterinária</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/cursos/zootecnia">Zootecnia</a></li>
-		                </ul>
+		                </ul>-->
 		            </li>
-		        <li><a href="http://localhost/ufrpe_search/site/mapa">Mapa</a></li>
-		        <li><a href="http://localhost/ufrpe_search/site/onibus">Ônibus</a></li>
-		        
-		</ul>
-		</nav>
-		
+				<li>
+					<a href="http://localhost/ufrpe_search/site/mapa">Mapa</a>
+				</li>
+				<li>
+					<a href="http://localhost/ufrpe_search/site/onibus">Ônibus</a>
+				</li>
+				<li>
+					<a href="http://localhost/ufrpe_search/site/contato">Contato</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-	
-	
-	
-	  
+	</div>	  
 
-<div id="conteudo">
-	  
-	  <?php echo $this->Session->flash(); ?>
+<div id="conteudo">	  
+	<?php echo $this->Session->flash(); ?>
 	<?php echo $this->Js->writeBuffer();?>	
-		<?php echo $this->fetch('content'); ?>
+	<?php echo $this->fetch('content'); ?>
 </div>
 <?php echo $this->Js->writeBuffer();?>
+
+
+<div id="footer">
+		<div class="clearfix">
+			<p>
+				© All Rights Reserved.
+			</p>
+		</div>
+</div>	
 </body>
 </html>
+
+
+
+
+

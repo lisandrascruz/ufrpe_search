@@ -16,14 +16,15 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+<<<<<<< HEAD
 
 *{margin: 0; padding: 0; font-family: Verdana !important;}
 
+>>>>>>> origin/master
 
 body {
 	width: 1325px;
 	height:0px;
-	background:#E6E6FA;
 }
 .menu{
 list-style:none; 
@@ -32,7 +33,6 @@ float:left;
 /*width: 610px;*/
 height:50px;
 background:#0000EE;
-
 }
 
 .menu li{
@@ -68,7 +68,7 @@ display:none;
 .menu li ul li{
 border:1px solid #c0c0c0; 
 display:block; 
-width:220px;
+width:200px;
 height: 22px;
 }
 
@@ -159,12 +159,10 @@ clear:left;/*alterado inserido 1*/
 }
 
 #menu_topo{
-	/* float: left; */
-	width: 375px;
+	float: left;
+	width: 1024px;
 	height:50px;
 	background:#0000EE;
-	float: left;
-	margin-left: 250px;
 }
 #menu_lateral{
 	
@@ -176,26 +174,25 @@ clear:left;/*alterado inserido 1*/
 
 #conteudo{
 	float: left;
-	margin-top: 100px;
 	height:1024px;
 	width: 1080px; 
-	background:#E6E6FA ;
+	background:#ffffff ;
 }
 #conteudo p{
-	background:#E6E6FA ;
+	background:#ffffff ;
 }
 
 .container {
     width:100%;
     border:1px solid #0080c0;
-    background: #E6E6FA;
+    background: #0080c0;
 }
 .container div {
     width:100%;
-    background: #E6E6FA;
+    background: #0080c0;
 }
 .container .header {
-    background-color:#E6E6FA;
+    background-color:#d3d3d3;
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
@@ -203,7 +200,7 @@ clear:left;/*alterado inserido 1*/
 .container .content {
     display: none;
     padding : 5px;
-    background: #E6E6FA;
+    background: #0080c0;
 }
 
 #nav ul.sub-nav {

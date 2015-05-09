@@ -1,19 +1,36 @@
-<h1><p align="center"> Bem vindo ao UFRPE SEARCH!!!</h1> 
-<br><br>
-<?php /*echo $this->Html->image("ufrpe_search.jpg");*/
-?>
-<p align="center"> O portal destinado aos alunos da nossa querida Universidade Federal Rural de Pernambuco. Nesse portal teremos acesso a diversos assuntos de nossa
-Universidade, totalmente voltado para nós alunos. </p>
-<p align="center"> Aqui poderemos ter acesso as seguintes coisas: </p>
-<br>
-<ul align="center">
-	<li>Descrição de nossos cursos</li>
-	<li> Onibus que passam na UFRPE </li>
-	<li>Cadeiras/Disciplinas de nossos cursos. Separadas em obrigatórias e optativas por periodo</li>
-	<li> Mapas de como chegar em lugares de nossa Universidade</li>
-	<li> E entre outras coisas</li>
-</ul>
-<br>
-<p align="center"> Faça um bom uso de nosso portal. Afinal ele foi feito para nós, a principal razão de existir da UFRPE!</p>
+﻿<div id="adbox">
+		<div class="clearfix">
+			<img src="img/logooo.png" alt="Img" height="342" width="368">
+			<div>
+				<h1>Bem vindo ao UFRPE SEARCH !</h1>
+				<h4>O portal destinado aos alunos da nossa querida Universidade Federal Rural de Pernambuco. Nesse portal teremos acesso a diversos assuntos de nossa Universidade, totalmente voltado para nós alunos.
+Aqui poderemos ter acesso as seguintes coisas:</h4>
+				<p>Descrição de nossos cursos</p>
+				<p>Onibus que passam na UFRPE</p>
+				<p>Cadeiras/Disciplinas de nossos cursos. Separadas em obrigatórias e optativas por periodo</p>
+				<p>Mapas de como chegar em lugares de nossa Universidade</p>				
+			</div>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="tagline" class="clearfix">
+			<h1>Equipe Desenvolvedora</h1>
+			<div>
+				<p>Matheus Uehara</p>
+				<p>Igor Gomes</p>
+				<p>Lisandra Cruz</p>
+				<p>Guilherme Matheus</p>
+
+			</div>
+			<div>
+				<p>Jorge Delgado</p>
+				<p>Ricardo Borba</p>
+				<p>Marconi Motta</p>
+			</div>
+		</div>
+	</div>
+	
+	
+
 
 
