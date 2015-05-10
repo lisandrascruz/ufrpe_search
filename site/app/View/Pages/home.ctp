@@ -1,4 +1,6 @@
-﻿<div id="adbox">
+﻿<title>UFRPE Search</title>
+
+<div id="adbox">
 		<div class="clearfix">
 			<img src="img/logooo.png" alt="Img" height="342" width="368">
 			<div>

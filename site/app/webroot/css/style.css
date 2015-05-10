@@ -47,7 +47,7 @@ img {
 /** Logo **/
 #header .logo {
 	float: left;
-	margin-right: 0px;
+	margin-right: 5%;
 }
 #header .logo a {
 	background: url(../img/aaa.png) no-repeat center top;
@@ -74,7 +74,7 @@ img {
 }
 #navigation li {
 	float: left;
-	width: 160px;
+	width: 120px;
 	text-align: center;
 }
 #navigation li a {
@@ -90,14 +90,19 @@ img {
 	color: #f99600;
 }
 #mapa {	
-	height: 380px;
-	padding: 60px 0;
+	display: block;
+	height: 400px;
+	width: 800px;
 }
 
 #centro {	
 	text-align:center;
+	list-style: none;
 }
-
+#centro2{
+	text-align:center-left;
+	list-style: none;
+}
 #adbox {
 	background: url(../img/bg-adbox.jpg) repeat-x left top;
 	height: 380px;
@@ -166,7 +171,7 @@ p {
 	color: #585858;
 	font-size: 16px;
 	line-height: 24px;
-	margin: 0 0 30px;
+	margin: 0 0 0;
 }
 p a {
 	color: #585858;
@@ -192,27 +197,7 @@ p a {
 	margin-right: 20px;
 	margin-top: 36px;
 }
-.date {
-	float: left;
-	height: 78px;
-	width: 70px;
-	margin-right: 20px;
-	border: 1px solid #d5d5d5;
-	text-align: center;
-}
-.date p {
-	margin: 12px 0 0;
-}
-.date p span {
-	display: block;
-	font-size: 30px;
-	margin-bottom: 6px;
-}
-.author {
-	color: #585858;
-	display: block;
-	font-size: 12px;
-}
+
 .more {
 	background-color: #727272;
 	color: #fff;
@@ -227,77 +212,7 @@ p a {
 	background-color: #f99600;
 	color: #000;
 }
-/** main **/
-.main {
-	float: left;
-	background: url(../images/divider.png) repeat-y right top;
-	min-height: 100px;
-	width: 620px;
-	padding-right: 24px;
-}
-.main h1, .sidebar h1 {
-	margin: 0 0 12px;
-	position: relative;
-	top: -18px;
-}
-.main h2 span {
-	display: block;
-	font-size: 12px;
-}
-/** sidebar **/
-.sidebar {
-	float: left;
-	min-height: 848px;
-	width: 216px;
-	margin-left: 20px;
-}
-.sidebar ul, .news {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.news li {
-	border-top: 1px solid #d5d5d5;
-	padding: 24px 30px 0 100px;
-	position: relative;
-}
-.news li .date {
-	float: none;
-	position: absolute;
-	left: 0;
-	top: 30px;
-}
-.news li > p span, .post > span {
-	display: block;
-	text-align: right;
-}
-.posts {
-	border-top: 1px solid #d5d5d5;
-}
-.posts li {
-	border-bottom: 1px solid #d5d5d5;
-	padding: 24px 10px 0;
-}
-.posts li p {
-	font-size: 14px;
-}
-.posts li .title {
-	font-size: 16px;
-	font-weight: normal;
-	margin: 0 0 12px;
-}
-.posts li .title a {
-	color: #2c2c2c;
-	font-size: 16px;
-	text-decoration: none;
-}
-.post {
-	width: 785px;
-	margin: 0 auto;
-}
-.post h1 {
-	padding-top: 12px;
-}
+
 #about {
 	width: 740px;
 	margin: 0 auto;
@@ -365,36 +280,64 @@ p a {
 	line-height: 30px;
 	padding-left: 10px;
 }
-#connect {
-	float: right;
-	display: inline-block;
-	margin-right: 30px;
+
+.menu,
+.sub-menu {
+    margin: 0;
+    padding: 0;
 }
-#connect a {
-	background: url(../images/icons.png) no-repeat;
-	display: inline-block;
-	height: 30px;
-	width: 30px;
-	margin: 0 10px;
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
 }
-#connect a.googleplus {
-	background-position: 0 -40px;
+.menu,
+.sub-menu {
+    list-style: none;
+    background: #EEEEEE;
 }
-#connect a.twitter {
-	background-position: 0 -80px;
+.sub-menu {
+    background: #444;
 }
-#connect a.tumbler {
-	background-position: 0 -120px;
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #818181;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+	top: 50px;
 }
-#connect a.facebook:hover {
-	background-position: -40px 0;
+
+.menu li {
+    position: relative;
 }
-#connect a.googleplus:hover {
-	background-position: -40px -40px;
+.menu > li {
+    float: left;
 }
-#connect a.twitter:hover {
-	background-position: -40px -80px;
+.menu li:hover > .sub-menu {
+    display: block;
 }
-#connect a.tumbler:hover {
-	background-position: -40px -120px;
+.sub-menu a {
+
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 10%;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
 }
