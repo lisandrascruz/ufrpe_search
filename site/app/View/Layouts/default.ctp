@@ -120,6 +120,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				<li><a href="http://localhost/ufrpe_search/site/contato">Contato</a>
 					<ul class="sub-menu clearfix">
 							 <li><a href="http://localhost/ufrpe_search/site/contato/contato_departamentos">Contato Departamentos</a></li>
+							 <li><a href="">Contato Coordenações</a></li>
 					</ul>
 				</li>
 				
