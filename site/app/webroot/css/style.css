@@ -341,3 +341,30 @@ p a {
     top: 0;
     left: 100%;
 }
+
+/* ******* Css Tabela de Onibus ********** */
+.container {
+    width:100%;
+    border:1px solid #d3d3d3;
+}
+.container div {
+    width:100%;
+}
+.container .header {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container .content {
+    display: none;
+    padding : 5px;
+}
+/* *********** Fim Css Tabela de Onibus ********* */
+
+/* Aumentando espaço do menu de cursos */
+.sub-menu li a{
+width:220px;
+height: 5px;
+}
+}

@@ -1,5 +1,7 @@
-﻿<title>UFRPE Search - Contato</title>	
+﻿<title>UFRPE Search - Contato</title>
+
 	<div id="contents">
+		
 		<div class="section">
 			<h1>Contact</h1>
 			<p>
