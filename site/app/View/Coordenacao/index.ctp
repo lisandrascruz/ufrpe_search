@@ -1,7 +1,11 @@
-﻿<p><h1>Coordenacao</h1></p>
-
-<ul>
-		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/administracao">Administração</a></li>
+<title>UFRPE Search - Coordenações</title>
+<div id="adbox">
+	<div class="clearfix">
+		<p><h1>Coordenações</h1></p>	
+		<br>
+		<div>
+			<ul id="centro2">
+			  <li><a href="http://localhost/ufrpe_search/site/coordenacao/administracao">Administração</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/agronomia">Agronomia</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/ciencia_computacao">C. da Computação</a></li> 
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/ciencias_biologicas">C. Biológicas</a></li>
@@ -25,4 +29,11 @@
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/licenciatura_ciencias_biologicas">Lic. em C. Biologicas</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/medicina_veterinaria">Medicina Veterinária</a></li>
 		                      <li><a href="http://localhost/ufrpe_search/site/coordenacao/zootecnia">Zootecnia</a></li>
-		                </ul>
+			  
+			</ul>
+		</div>
+	</div>
+</div>
+<br><br>
+<div id="contents">
+</div>

@@ -112,10 +112,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					<a href="http://localhost/ufrpe_search/site/coordenacao">Coordenação</a>
 				</li>
 				<li>
-					<a href="http://localhost/ufrpe_search/site/mapa">Mapa</a>
+					<a href="http://localhost/ufrpe_search/site/departamentos/">Departamentos</a>
 				</li>
 				<li>
 					<a href="http://localhost/ufrpe_search/site/onibus">Ônibus</a>
+				</li>
+				<li>
+					<a href="http://localhost/ufrpe_search/site/mapa">Mapa</a>
 				</li>
 				<li><a href="http://localhost/ufrpe_search/site/contato">Contato</a>
 					<ul class="sub-menu clearfix">
@@ -124,9 +127,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					</ul>
 				</li>
 				
-				<li>
-					<a href="http://localhost/ufrpe_search/site/contato">exemplo2</a>
-				</li>
 			</ul>
 			</div>
 		</div>
