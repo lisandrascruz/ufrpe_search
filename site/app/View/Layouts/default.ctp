@@ -144,7 +144,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <div id="footer">
 		<div class="clearfix">
 			<p>
-				© All Rights Reserved.
+				© UFRPE SEARCH.
 			</p>
 		</div>
 </div>	

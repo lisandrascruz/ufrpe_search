@@ -104,7 +104,6 @@ img {
 	list-style: none;
 }
 #adbox {
-	background: url(../img/bg-adbox.jpg) repeat-x left top;
 	height: 380px;
 	padding: 60px 0;
 }
@@ -343,9 +342,11 @@ p a {
 }
 
 /* ******* Css Tabela de Onibus ********** */
+
 .container {
-    width:100%;
-    border:1px solid #d3d3d3;
+    width:50%;
+    /*border:1px solid #d3d3d3;*/
+	float:center;
 }
 .container div {
     width:100%;
@@ -362,7 +363,7 @@ p a {
 }
 /* *********** Fim Css Tabela de Onibus ********* */
 
-/* Aumentando espaço do menu de cursos */
+/* Aumentando espaco do menu de cursos */
 .sub-menu li a{
 width:220px;
 height: 5px;
